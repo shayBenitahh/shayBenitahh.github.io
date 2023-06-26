@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODOLIST</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="mystyle.css">  
+
+    </head>
+	
+		<style>
+		
+li{
+    list-style-type: none;
+    font-size: 40px;
+	font-family: monaco,Consolas,Lucida Console,monospace;
+}
+
+body {
+	background-color: green;
+	background-size: cover;
+	font-family: 'Actor'
+}
+
+form{
+	border-radius: 15%;
+	border-style: dashed;
+	padding: 20px;
+	padding-left: 70px;
+	padding-right: 70px;
+	background-color: #fea363;
+	background: rgba(254, 163, 99, 0.5);
+	align-items: center;
+}
+
+.box {
+			text-align: center;
+		justify-content: center;
+		align-items: center;
+  border: 1px solid #333333;
+  height: 80vh;
+  overflow: scroll;
+  overflow: auto
+  
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+    padding: 25px;
+    font-family: monaco,Consolas,Lucida Console,monospace;
+}
+.nl:hover{
+    background-color: #fea363;
+}
+
+nav{
+    width: 100%;
+	left: 0;
+	top: 0;
+	position: fixed;
+}
+
+ul{
+	    background-color: white;
+
+    margin: 0;
+    padding: 0;
+    display: flex;
+	justify-content: center;
+}
+
+table{
+	padding: 10px;
+	margin:10px;
+}
+
+.cent{
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		-webkit-transform: translate(-50%, -50%);
+		transform: translate(-50%, -50%);
+		text-align: center;
+		justify-content: center;
+		align-items: center;
+	}
+
+nav .nav_right{
+	position: fixed;
+	right: 0;
+}
+
+nav .nav_mid{
+	position: fixed;
+	
+}
+
+nav .nav_left{
+	position: fixed;
+	left: 0;	
+}
+
+a .logo-image{
+    width: 1em;
+    height:1em;
+    border-radius: 50%;
+    overflow: hidden;
+	position: fixed;
+	left: 1px;
+    margin-top: 1px;
+	content:url("./logo.png");
+}
+
+
+.footer{
+    text-align: center;
+    background-color:white;
+    font-size: 23px;
+	font-family: monaco,Consolas,Lucida Console,monospace;
+    position: fixed;
+	bottom: 0;
+	width: 100%;
+	left: 0;
+	position: fixed;
+}
+
+.redirect{
+	color: blue;
+	white-space: nowrap;
+	padding:0.3em 0.9em;
+}
+
+.lout{
+	background-color:hsla(0, 100%, 90%, 0.3);
+	float:right;
+	padding:0.3em;
+	font-s
+}
+	</style>
+
+
+    <body>
+        <div class="topbar">
+            <nav>
+                <ul>
+					<li>
+					<a href="Home.html" class="logo_press">
+						<div class="logo-image">
+						<img src="image" class="img-fluid">
+						</div>
+					</a>
+					</li>
+					<li class="nav_mid"> TODOLIST </li>
+					<li class="nav_right"> HELLO GUEST </li>
+                </ul>
+            </nav>
+        </div>
+		
+		
+		<div class= "footer">
+			<p>Shay Benitah | <a target ="_blank" class="nl" href="https://www.netanya.ac.il/">Netanya college</a></p>
+        </div>
+    </body>
+</html>
